@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    align-items: center;
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#container{
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.celestial-body{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#sun{
+    background-color: orangered;
+    animation: rotate-sun 10s linear infinite;
+}
+
+.planet{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.mercury{background-color: #bfbfbf;
+animation-duration: 2s;}
+.venus{background-color: #f9d36e;
+animation-duration: 5s;}
+.earth{background-color: #0c70f3;
+animation-duration: 8s;}
+.mars{background-color: #d15e2a;
+animation-duration: 12s;}
+.jupiter{background-color: #bcafb2;
+animation-duration: 15s;}
+.jupiter{background-color:rgb(189, 130, 43);
+animation-duration: 17;}
+.uranus{background-color: #ace5ee;
+animation-duration: 20s;}
+.neptune{background-color: #4b70dd;
+animation-duration: 25;}
+.pluto{background-color: #34acb1;
+animation-duration: 30s;}
